@@ -15,7 +15,8 @@ pipeline {
 
     stage("Test") {
       environment {
-        CYPRESS_API_URL="http://128.199.92.34:8080/"
+        // sorry-cypress director endpoint
+        CYPRESS_API_URL="http://128.199.92.34:1234/"
         CYPRESS_trashAssetsBeforeRuns="false"
       }
 
