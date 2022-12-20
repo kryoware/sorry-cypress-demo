@@ -21,8 +21,8 @@ pipeline {
       }
 
       steps {
-        // TODO: Fix --parallel run
-        sh "npx cy2 run --record --key demo --ci-build-id ${env.BUILD_NUMBER}"
+        // TODO: Fix --parallel run (also add --ci-build-id ${env.BUILD_NUMBER})
+        sh "npx cy2 run --record --key demo"
       }
     }
   }
