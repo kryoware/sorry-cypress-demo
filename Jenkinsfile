@@ -8,7 +8,6 @@ pipeline {
   stages {
     stage("Build") {
       steps {
-        sh "ls -l"
         sh "npm ci"
       }
     }
@@ -22,7 +21,7 @@ pipeline {
 
       steps {
         // TODO: Fix --parallel run (also add --ci-build-id ${env.BUILD_NUMBER})
-        sh "npx cy2 run --record --key demo"
+        sh "npx cy2 run --browser chrome --record --key demo"
       }
     }
   }
