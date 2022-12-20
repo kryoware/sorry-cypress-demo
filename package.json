@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cy2": "^3.4.3",
+    "cypress": "^11"
+  },
+  "name": "sorry-cypress-demo",
+  "description": "The example project contains just a boilerplate cypress tests.",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agoldis/sorry-cypress-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agoldis/sorry-cypress-demo/issues"
+  },
+  "homepage": "https://github.com/agoldis/sorry-cypress-demo#readme"
+}
